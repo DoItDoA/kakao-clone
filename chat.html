@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅 - 카카오클론</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>서비스없음</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>13:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>81%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">카카오클론</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2021년 7월 21일 수요일</div>
+
+      <div class="message-row">
+        <img src="css/images/kakaotalk.jpg" />
+        <div class="message-row__content">
+          <span class="message-row__author">카카오클론</span>
+          <div class="message-row__info">
+            <span class="message-row__bubble">안녕하세요.</span>
+            <span class="message-row__time">12:01</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message-row__info">
+            <span class="message-row__bubble">꺼져</span>
+            <span class="message-row__time">12:02</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" />
+        <i class="far fa-smile fa-2x"></i>
+        <button>
+          <i class="fas fa-chevron-right fa-lg"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>모바일로 접속해주세요</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
