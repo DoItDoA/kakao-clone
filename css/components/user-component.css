@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .user-component,
@@ -13,18 +14,44 @@
   flex-direction: column;
   align-items: flex-end;
 }
+.user-component__column--music {
+  border: 2px solid rgb(4, 214, 4);
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.user-component__column:last-child div i {
+  color: rgb(4, 214, 4);
+}
 .user-component__avatar {
+  min-width: 70px;
   width: 70px;
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
+  background-color: white;
+}
+.user-component__avatar--group {
+  display: grid;
+  grid-template-columns: repeat(2, 30px);
+  grid-template-rows: repeat(2, 30px);
+  gap: 3px;
+  background-color: transparent;
+  align-content: center;
+  justify-content: center;
+}
+.user-component__avatar--group div {
+  border-radius: 10px;
 }
 .user-component__avatar--xl {
   min-width: 80px;
+  width: 80px;
   height: 80px;
   border-radius: 32px;
 }
 .user-component__avatar--sm {
+  min-width: 60px;
   width: 60px;
   height: 60px;
   border-radius: 25px;

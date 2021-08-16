@@ -23,10 +23,43 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  background-color: #f9c5c8;
 }
 #scroll {
   height: 120vh;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
+  margin-top: 100px;
+}
+.background {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100%;
+}
+.frodo {
+  background: url("./images/frodo_thumbnail.png");
+  background-size: contain;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+.ryan {
+  background-image: url("./images/ryan_thumbnail.png");
+  background-size: contain;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+.tube {
+  background-image: url("./images/tube_thumbnail.png");
+  background-size: contain;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+.muzi {
+  background-image: url("./images/muzi_thumbnail.png");
+  background-size: contain;
+  background-color: white;
+  background-repeat: no-repeat;
 }

@@ -5,10 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>카카오클론</title>
+    <title>어피치톡</title>
   </head>
   <body>
-    <div class="status-bar">
+    <img src="css/images/apeach1.png" class="background" />
+    <div class="status-bar" style="background-color: transparent">
       <div class="status-bar__column">
         <span>서비스없음</span>
         <i class="fas fa-wifi"></i>
@@ -23,24 +24,19 @@
       </div>
     </div>
     <header class="welcome-header">
-      <h1 class="welcome-header__title">카카오클론에 오신 것을 환영합니다</h1>
+      <h1 class="welcome-header__title">어피치톡에 온 것을 환영해~~!</h1>
       <p class="welcome-header__text">
-        이메일 또는 전화번호 계정으로 로그인 해주세요.
+        어피치 이름과 비밀번호 부탁해 ( *˘╰╯˘*)
       </p>
     </header>
     <form action="friends.html" method="get" id="login-form">
-      <input
-        type="text"
-        name="id"
-        placeholder="카카오계정 (이메일 또는 전화번호)"
-        required
-      />
+      <input type="text" name="id" placeholder="어피치 이름" required />
       <input type="password" name="password" placeholder="비밀번호" required />
-      <input type="submit" value="로그인" />
-      <a href="#">카카오계정 찾기</a>
+      <input type="submit" value="입장" />
+      <a href="#">어피치이름 찾기</a>
     </form>
 
-    <div id="splash-screen"><i class="fas fa-comment fa-2x"></i></div>
+    <div id="splash-screen"></div>
     <div id="no-mobile">
       <span>모바일로 접속해주세요</span>
     </div>
